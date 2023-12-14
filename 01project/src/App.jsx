@@ -13,14 +13,12 @@ function App() {
   let reduceAdd = () =>{
     if (value > 0){
       // interview question
-      setValue(prevvalue => prevvalue + 1 )
-      setValue(prevvalue => prevvalue + 1 )
-      setValue(prevvalue => prevvalue + 1 )
-      setValue(prevvalue => prevvalue + 1 )
+      setValue(prevvalue => prevvalue - 4 )
   }else{
     setValue("Can't go beyond 0")
     setTimeout(()=>{
-      setValue(value)
+
+      setValue(0)
     },2000)
   }
 }
